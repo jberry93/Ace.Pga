@@ -1,2 +1,3 @@
 # Ace.Pga
-Strongly typed .NET models and validation for the U.S. CBP ACE Partner Government Agency (PGA) Message Set.
+
+This library is an opinionated .NET library for modeling and validating U.S. Customs and Border Protection (CBP) ACE Partner Government Agency (PGA) data. It provides a canonical C# object model and JSON representation based on the ACE CATAIR PGA Message Set, along with validation for field constraints, record requirements, conditional dependencies, and record relationships defined by the specification. The generic CATAIR rules form the foundation of the library, while agency-specific validation profiles may be added separately as supported guidance is implemented and versioned. Future releases may also support serialization of validated PGA data into ACE fixed-width EDI records.
